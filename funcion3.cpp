@@ -31,6 +31,9 @@ cout<<"La serie es: "<<nxt<<endl;
  }
 
  int suma(int n){
+ if(n==0) return 0;
+ if(n==1) return 1;
+
  int fir=0, sec=1,nxt, suma=1;
  for (int i=2;i<n;i++){
  nxt=fir+sec;
