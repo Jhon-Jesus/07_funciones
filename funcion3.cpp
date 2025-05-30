@@ -5,11 +5,11 @@ using namespace std;
 
  int main(){
  int n;
-    cout<<"nª total de elementos:"<<endl;
+    cout<<"Nª total de elementos de la serie de Fibonacci:"<<endl;
     cin>>n;
     fibonacci(n);
 
-    cout<<"Suma: "<<suma(n)<<endl;
+    cout<<"Suma total de los elementos de la serie: "<<suma(n)<<endl;
 
  return 0;
  }
