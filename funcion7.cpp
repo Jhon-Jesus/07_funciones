@@ -9,7 +9,7 @@ cin>>m;
 cout<<"Ingrese el valor de (n): ";
 cin>>n;
 
-if (m>n){
+if (m>=n){
 combi=factorial(m)/(factorial(n)*factorial(m-n));
 cout<<"El valor de la combinatoria es: "<<combi;
 }
