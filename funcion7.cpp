@@ -4,14 +4,14 @@ int factorial(int n);
 
 int main(){
 int m,n, combi;
-cout<<"Ingrese (m):"<<endl;
+cout<<"Ingrese el valor de (m): ";
 cin>>m;
-cout<<"Ingrese (n): "<<endl;
+cout<<"Ingrese el valor de (n): ";
 cin>>n;
 
 combi=factorial(m)/(factorial(n)*factorial(m-n));
 
-cout<<"Combinatoria es: "<<combi;
+cout<<"El valor de la combinatoria es: "<<combi;
 
 return 0;
 }
