@@ -21,9 +21,9 @@ if (num2!=0){
 while (num2!=0){
 temp=num2;
 num2=num1%num2;
-num1=num2;
+num1=temp;
 }
-return temp;
+return num1;
 }
 else{
 return num1;
