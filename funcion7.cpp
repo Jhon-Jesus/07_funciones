@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int factorial(int n);
+int combinatoria(int m, int n);
 
 int main(){
 int m,n, combi;
@@ -10,8 +11,8 @@ cout<<"Ingrese el valor de (n): ";
 cin>>n;
 
 if (m>=n){
-combi=factorial(m)/(factorial(n)*factorial(m-n));
-cout<<"El valor de la combinatoria es: "<<combi;
+
+cout<<"El valor de la combinatoria es: "<<combinatoria(m,n);
 }
 else{
 cout<<"Factorial de numero negativo "<<(m-n)<<"!"<<" no existe";
@@ -26,4 +27,11 @@ for (int i=2;i<=n;i++){
     f=f*i;
 }
 return f;
+}
+
+int combinatoria(int m, int n){
+int combi;
+combi=factorial(m)/(factorial(n)*factorial(m-n));
+return combi;
+
 }
