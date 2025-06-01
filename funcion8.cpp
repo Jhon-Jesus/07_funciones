@@ -17,6 +17,7 @@ return 0;
 
 int mcd(int num1, int num2){
 int temp;
+if (num2!=0){
 while (num2!=0){
 temp=num2;
 num2=num1%num2;
@@ -24,9 +25,27 @@ num1=num2;
 }
 return temp;
 }
+else{
+return num1;
+}
+
+if (num1==0){
+return num2;
+}
+
+else if (num1==0 && num2==0){
+return 0;
+
+}
+}
 
 int mcm(int num1,int num2){
 int mcm;
+if (num1!=0 && num2!=0){
 mcm=(num1*num2)/mcd(num1,num2);
+}
+else{
+return 0;
+}
 return mcm;
 }
