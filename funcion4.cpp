@@ -21,12 +21,14 @@ void perfecto(int num){
 
     }
     }
-
-    if(num==sum){
-    cout<<"El numero es perfecto";
+    if(num==0){
+    cout<<"\nEl numero 0 NO ES PERFECTO";
+    }
+    else if(num==sum){
+    cout<<"\nEl numero "<<num<<" ES PERFECTO";
     }
     else{
-    cout<<"El numero no es perfecto";
+    cout<<"\nEl numero "<<num<<" NO ES PERFECTO";
     }
     return ;
 }
