@@ -28,10 +28,10 @@ void amigos(int num1, int num2);
     }
 
     if(sumadv1==num2&&sumadv2==num1){
-    cout<<"Los numero SON AMIGOS";
+    cout<<"\nLos numeros "<<num1<<" y "<<num2<<" SON AMIGOS";
     }
     else{
-    cout<<"Los numeros NO SON AMIGOS";
+    cout<<"\nLos numeros "<<num1<<" y "<<num2<<" NO SON AMIGOS";
     }
  return ;
  }
